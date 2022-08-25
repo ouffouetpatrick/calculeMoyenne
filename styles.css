@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10rem 20rem 10rem 20rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    background-color: rgb(235, 156, 38);
+    padding: 25px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+}
+
+.titre{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.trimestre{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-zone{
+    width: 40px;
+}
+
+.zoneCalcul{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
+}
+
+.resultat{
+    display: flex;
+    align-items: center;
+}
+
+.mga{
+    width: 40px;
+    height: 30px;
+    border: 2px solid rgb(235, 156, 38);
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.btnCalcule{
+    display: flex;
+    justify-content: center;
+}
+
+.btnCalcule button{
+    background-color: white;
+    position: absolute;
+}
+
+.btnCalcule button:hover{
+    background-color: green;
+    width: 90px;
+    height: 45px;
+    color: white;
+}
+
+.afficheMoyenne{
+    width: 40px;
+    height: 30px;
+    border: 2px solid black;
+    display: none;
+}
