@@ -68,18 +68,33 @@ body{
 }
 
 .btnCalcule{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
-.btnCalcule button{
+.buttonCal button{
     background-color: white;
     position: absolute;
 }
 
-.btnCalcule button:hover{
+.buttonCal button:hover{
     background-color: green;
     width: 90px;
+    height: 45px;
+    color: white;
+}
+
+.buttonVerif button{
+    background-color: white;
+    position: absolute;
+    left: 45rem;
+}
+
+.buttonVerif button:hover{
+    background-color: green;
+    width: 200px;
     height: 45px;
     color: white;
 }
