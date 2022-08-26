@@ -88,6 +88,7 @@ body{
 
 .buttonVerif button{
     background-color: white;
+    color: rgb(235, 156, 38);
     position: absolute;
     left: 45rem;
 }
