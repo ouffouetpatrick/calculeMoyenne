@@ -70,8 +70,7 @@ body{
 .btnCalcule{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 
 .buttonCal button{
@@ -90,7 +89,7 @@ body{
     background-color: white;
     color: rgb(235, 156, 38);
     position: absolute;
-    left: 45rem;
+    left: 42rem;
 }
 
 .buttonVerif button:hover{
@@ -160,3 +159,61 @@ body{
         font-size: 10px;
     }
 } 
+
+@media screen and (max-width: 1244px){
+    
+    .buttonVerif button{
+        position: absolute;
+        left: 40rem;
+    }
+}
+
+@media screen and (max-width: 1160px){
+    
+    .buttonVerif button{
+        position: absolute;
+        left: 38rem;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    
+    .buttonVerif button{
+        position: absolute;
+        left: 35rem;
+    }
+}
+
+@media screen and (max-width: 1004px){
+    
+    .buttonVerif button{
+        position: absolute;
+        left: 30rem;
+    } 
+}
+
+@media screen and (max-width: 850px){
+    
+    .buttonVerif button{
+        position: absolute;
+        left: 25rem;
+    } 
+}
+
+@media screen and (max-width: 695px){
+    
+    .buttonCal button{
+        position: relative;
+        margin-bottom: 5px;
+    }
+
+    .buttonVerif button{
+        position: relative;
+        left: 2px;
+    }
+    
+    .btnCalcule{
+        display: flex;
+        flex-direction: column; 
+    }
+}
